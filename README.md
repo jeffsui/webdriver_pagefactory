@@ -1,19 +1,19 @@
-webdriver_pagefactory
-=====================
+#webdriver页面工厂模式
+>原名称:webdriver_pagefactory
 
-webdriver下pagefactory实例
-<pre>
-这是一个webdriver使用pageFactory模式的例子
+---
+##webdriver下pagefactory实例
+>这是一个webdriver使用pageFactory模式的例子
 以登陆51CTO为例,代码已经经过实际测试。
-</pre>
-<pre>
-简要说明:
-linfeng/webdriver/cto下<br/>
-bean-封装用户信息<br/>
-page-封装页面信息<br/>
-test-测试类<br/>
-linfeng/webdriver/util下<br/>
-主要是封装的一些常用操作(完善中)<br/>
-</pre>
 
+###代码简要说明:
+* 1.linfeng/webdriver/cto下
+* 2.bean-封装用户信息
+* 3.page-封装页面信息
+* 4.test-测试类
+* 5.linfeng/webdriver/util下
+>主要是封装的一些常用操作(完善中)
+
+###何谓page_factory模式
+>webdriver通过注解的方式对页面元素进行了封装,将页面元素和逻辑进行了解耦。
 
